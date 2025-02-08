@@ -1,3 +1,5 @@
+
+--queried in MySQL workbench
 -- Calculate the average order amount for each country 
 
 SELECT ROUND(AVG(priceEach * quantityOrdered),2) AS order_value, customers.country
